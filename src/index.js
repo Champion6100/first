@@ -48,6 +48,9 @@ class Board extends React.Component {
   }
 }
 
+
+
+
 class Game extends React.Component {
   constructor(props) {
     super(props);
@@ -129,6 +132,7 @@ class Game extends React.Component {
 }
 
 // ========================================
+//--------------------------------------
 
 ReactDOM.render(<Game />, document.getElementById("root"));
 
